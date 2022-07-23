@@ -41,7 +41,7 @@ header .logo {
 }
 
 .nav {
-    width: 500px;
+    width: 570px;
 }
 
 .search .btn {
@@ -64,6 +64,11 @@ header .logo {
     size: 40px;
     height: 30px;
     color: aliceblue;
+}
+
+.nav ul li {
+    display: inline;
+    padding-left: 20px;
 }
 
 .nav a {
@@ -126,7 +131,103 @@ header .logo {
     color: black;
 }
 
+.form {
+    width: 400px;
+    height: 440px;
+    background: linear-gradient(to top, rgba(170, 219, 46, 0.197), rgba(169, 246, 2, 0.279));
+    position: absolute;
+    top: 220px;
+    left: 1050px;
+    border-radius: 15px;
+}
 
+.form h2 {
+    color: rgba(255, 255, 255, 0.915);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    height: 80px;
+    align-items: center;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.form h3 {
+    color: white;
+    background-color: transparent;
+    margin-bottom: 2px;
+    font-size: 17px;
+}
+
+.form .btn {
+    width: 100px;
+    height: 35px;
+    background-color: #fff6aa;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: black;
+}
+
+.login i,
+.login a {
+    color: black;
+}
+
+.form .btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #c0af2a;
+}
+
+.formcontent {
+    padding-left: 40px;
+}
+
+.form input {
+    color: white;
+    background-color: transparent;
+    width: 300px;
+    height: 25px;
+    border-color: transparent;
+    border-bottom-color: #2d2d2d;
+    font-size: 20px;
+}
+
+.form p {
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.form .icon {
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+}
+
+.form .icon i {
+    padding: 10px;
+    padding-top: 0;
+    color: azure;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.form .icon i:hover {
+    color: #2d2d2d;
+}
 
 @media screen and (max-width: 1023px) {
 
@@ -156,7 +257,7 @@ header .logo {
         margin-left: 25px;
     }
 
-    .btn {
+    .search .btn {
         display: none !important;
     }
 
@@ -170,5 +271,16 @@ header .logo {
     .nav {
         margin-top: 50px;
         margin-left: 25px;
+    }
+
+    .form {
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(to top, rgba(170, 219, 46, 0.197), rgba(169, 246, 2, 0.279));
+        position: absolute;
+        top: 850px;
+        left: 50px;
+        bottom: 30px;
+        border-radius: 15px;
     }
 }
