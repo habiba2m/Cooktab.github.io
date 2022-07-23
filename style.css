@@ -1,0 +1,174 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.188)), url("img/pexels-photo-3992206.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 729px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+}
+
+header .icon {
+    color: rgb(217, 255, 0);
+    font-size: 45px;
+    position: relative;
+    padding-left: 100px;
+    white-space: 0;
+}
+
+header .logo {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+    word-spacing: 0pc;
+}
+
+.nav {
+    width: 500px;
+}
+
+.search .btn {
+    size: 40px;
+    height: 40px;
+    color: #adef03;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.search .btn:hover {
+    color: aliceblue;
+}
+
+.search .inpt {
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #adef03;
+    size: 40px;
+    height: 30px;
+    color: aliceblue;
+}
+
+.nav a {
+    color: #daf594;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 20px;
+    width: 200px;
+}
+
+.nav a:hover {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.title {
+    color: #faf606;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 100px;
+}
+
+.title span {
+    color: white;
+}
+
+.para {
+    color: white;
+    width: 500px;
+    padding-left: 100px;
+    font-weight: 450;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.signup {
+    padding-left: 100px;
+}
+
+.sign {
+    width: 160px;
+    height: 50px;
+    background-color: #edd732;
+    color: #2d2d2d;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+}
+
+.sign:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #c0af2a;
+}
+
+.sign a {
+    color: black;
+}
+
+
+
+@media screen and (max-width: 1023px) {
+
+    body {
+        height: 900px;
+        width: 500px;
+        background-position: top-center;
+        background-repeat: repeat;
+    }
+
+    header .logo {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    header .icon {
+        font-size: 40px;
+        padding-left: 15px;
+    }
+
+    .inpt {
+        font-size: 10px;
+        size: 25px;
+        height: 10px;
+        width: 150px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+    .btn {
+        display: none !important;
+    }
+
+    .title,
+    .signup,
+    .para {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nav {
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+}
