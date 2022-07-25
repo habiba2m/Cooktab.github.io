@@ -197,6 +197,7 @@ header .logo {
     background-color: transparent;
     width: 300px;
     height: 25px;
+    outline: none;
     border-color: transparent;
     border-bottom-color: #2d2d2d;
     font-size: 20px;
